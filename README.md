@@ -75,11 +75,11 @@ This method is just a static constructor for the Card object. This will return a
 
 This method will return true of the Card is a joker.
 
-#### suite() : int
+#### suit() : int
 
 This method will return an integer representation of the card suit. 0 = clubs, 1 = diamonds, 2 = hearts, 3 = spades.
 
-#### suiteName() : string
+#### suitName() : string
 
 This method will return the name of the card suit.
 
