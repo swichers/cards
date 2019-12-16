@@ -1,0 +1,18 @@
+{
+    "name": "gamebetr/cards",
+    "description": "Extends probable library for card games",
+    "authors": [
+        {
+            "name": "Steve Harmeyer",
+            "email": "sharmeyer@gamebetr.com"
+        }
+    ],
+    "require": {
+        "gamebetr/provable": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gamebetr\\Cards\\": "src/"
+        }
+    }
+}
