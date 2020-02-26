@@ -1,18 +1,32 @@
 {
-    "name": "gamebetr/cards",
-    "description": "Extends probable library for card games",
-    "authors": [
-        {
-            "name": "Steve Harmeyer",
-            "email": "sharmeyer@gamebetr.com"
-        }
-    ],
-    "require": {
-        "gamebetr/provable": "^1.0"
+  "name": "gamebetr/cards",
+  "description": "Extends probable library for card games",
+  "authors": [
+    {
+      "name": "Steve Harmeyer",
+      "email": "sharmeyer@gamebetr.com"
     },
-    "autoload": {
-        "psr-4": {
-            "Gamebetr\\Cards\\": "src/"
-        }
+    {
+      "name": "Steven Wichers",
+      "email": "me@stevenwichers.com"
     }
+  ],
+  "require": {
+    "gamebetr/provable": "^1.0",
+    "ext-intl": "*",
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gamebetr\\Cards\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Gamebetr\\Cards\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  }
 }
