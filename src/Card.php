@@ -234,6 +234,11 @@ class Card implements CardInterface
 
     /**
      * {@inheritdoc}
+     *
+     * Joker: 0
+     * 2 to 10: Face value
+     * Jack to King: 10
+     * Ace: 11
      */
     public function value(): int
     {
@@ -289,6 +294,13 @@ class Card implements CardInterface
 
     /**
      * {@inheritdoc}
+     *
+     * Joker: -1,
+     * 2 to 10: Face -2
+     * Jack: 9
+     * Queen: 10
+     * King: 11
+     * Ace: 12
      */
     public function rank(): int
     {
